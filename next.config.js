@@ -19,6 +19,7 @@ const nextConfig = {
       { protocol: "https", hostname: "cdn.pixabay.com" },
       { protocol: "https", hostname: "www.egypttoday.com" },
       { protocol: "https", hostname: "i.ibb.co" },
+      { protocol: "http", hostname: "localhost" },
     ],
   },
 };

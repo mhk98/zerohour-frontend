@@ -12,6 +12,7 @@ import "aos/dist/aos.css";
 
 export default function CategoryPage() {
   const params = useParams();
+
   const category = params.category;
   const dispatch = useAppDispatch();
   const { news, loading, currentPage, totalPages } = useAppSelector((state) => state.news);
@@ -19,14 +20,14 @@ export default function CategoryPage() {
   console.log("Category Page Rendered with category:", category);
 
   const categoryMap = {
-    national: "National",
-    international: "International",
-    sports: "Sports",
-    entertainment: "Entertainment",
-    technology: "Technology",
-    health: "Health",
-    business: "Business",
-    culture: "Culture",
+    national: "জাতীয়",
+    international: "আন্তর্জাতিক",
+    sports: "খেলাধুলা",
+    entertainment: "বিনোদন",
+    technology: "প্রযুক্তি",
+    health: "স্বাস্থ্য",
+    business: "বাণিজ্য",
+    culture: "সংস্কৃতি",
   };
 
   const categoryName = categoryMap[category] || category;

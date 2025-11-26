@@ -205,13 +205,13 @@ export default function NewsDetailPage() {
           {/* Meta Info */}
           <div className="flex items-center gap-5 mb-6 text-sm text-gray-600">
             <span className="font-bengali">✎ {news.author}</span>
-            <span>🕒 {formatDate(news.publishedAt)}</span>
+            <span>🕒 {formatDate(news.createdAt)}</span>
           </div>
 
           {/* Featured Image */}
           <div className="relative w-full h-72 md:h-96 rounded-md overflow-hidden mb-6 shadow">
-            <Image
-              src={news.image || DEFAULT_NEWS_IMAGE}
+            <img
+              src={`http://localhost:5000/${news.image}`}
               alt={news.title}
               fill
               className="object-cover"
@@ -221,7 +221,7 @@ export default function NewsDetailPage() {
 
           {/* Content */}
           <div className="font-bengali text-lg leading-relaxed text-gray-800 whitespace-pre-line mb-8">
-            {news.content}
+             <div dangerouslySetInnerHTML={{ __html: news.content }} />
           </div>
 
           {/* Share Buttons */}

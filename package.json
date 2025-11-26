@@ -2,12 +2,13 @@
   "name": "amardesh-website",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+   "scripts": {
+        "dev": "next dev -p 4000",
+        "turbo": "next dev --turbo -p 4000",
+        "build": "next build",
+        "start": "next start -p 4000",
+        "lint": "next lint"
+    },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.0",
     "aos": "^2.3.4",
