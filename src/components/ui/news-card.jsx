@@ -18,7 +18,7 @@ export function NewsCard({ news, featured = false, variant = "default" }) {
         <div className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
           <div className={`relative ${featured ? "h-64 lg:h-96" : isCompact ? "h-40" : "h-48"} overflow-hidden`}>
             <Image
-              src={`http://localhost:5000/${news.image}`}
+              src={`https://zerohour-backend.onrender.com/${news.image}`}
               alt={news.title}
               fill
               className="object-cover group-hover:scale-110 transition-transform duration-300"

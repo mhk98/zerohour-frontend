@@ -211,7 +211,7 @@ export default function NewsDetailPage() {
           {/* Featured Image */}
           <div className="relative w-full h-72 md:h-96 rounded-md overflow-hidden mb-6 shadow">
             <img
-              src={`http://localhost:5000/${news.image}`}
+              src={`https://zerohour-backend.onrender.com/${news.image}`}
               alt={news.title}
               fill
               className="object-cover"

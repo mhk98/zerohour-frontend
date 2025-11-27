@@ -45,7 +45,7 @@ export async function generateMetadata({ params }) {
     const { slug } = await params;
 
     // 🔥 Fetch all news from your backend API
-    const res = await fetch("http://localhost:5000/api/v1/news", {
+    const res = await fetch("https://zerohour-backend.onrender.com/api/v1/news", {
       cache: "no-store",
     });
 
