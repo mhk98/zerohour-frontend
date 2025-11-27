@@ -90,13 +90,13 @@ const Footer = () => {
           
           <div className="grid sm:grid-cols-2 gap-x-2 gap-y-1">
             <p>ফোন: ০২-৫৫০১২২৫০</p>
-            <p>ই-মেইল: info@dailyamardesh.com</p>
+            <p>ই-মেইল: info@zeroghonta.com</p>
             <p>বার্তা ফোন: ০১৬৬৬-৭৪৯৪০০</p>
-            <p>ই-মেইল: news@dailyamardesh.com</p>
+            <p>ই-মেইল: news@zeroghonta.com</p>
             <p>বিজ্ঞাপন ফোন: +৮৮০-১৭১৫-০২৫৪০৪</p>
-            <p>ই-মেইল: ad@dailyamardesh.com</p>
+            <p>ই-মেইল: ad@zeroghonta.com</p>
             <p>সার্কুলেশন ফোন: +৮৮০-০১৯১৯-৮৭৬৮৬৭</p>
-            <p>ই-মেইল: circulation@dailyamardesh.com</p>
+            <p>ই-মেইল: circulation@zeroghonta.com</p>
           </div>
         </div>
       </div>
