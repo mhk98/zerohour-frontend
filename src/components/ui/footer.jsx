@@ -13,7 +13,7 @@ import { RxTwitterLogo } from "react-icons/rx";
 
 const Footer = () => {
   // Data for Menus
-  const topMenuLinks = ["আমার দেশ", "যোগাযোগ", "শর্তাবলী ও নীতিমালা", "গোপনীয়তা নীতি", "ডিএমসিপি"];
+  const topMenuLinks = ["Zero Ghonta", "যোগাযোগ", "শর্তাবলী ও নীতিমালা", "গোপনীয়তা নীতি", "ডিএমসিপি"];
   const bottomMenuLinks = ["ওয়েব মেইল", "কন্ট্যাক্ট", "আর্কাইভ", "বিজ্ঞাপন", "সাইটম্যাপ"];
 
   // Data for Social Icons
@@ -74,12 +74,12 @@ const Footer = () => {
         <div className="space-y-4 text-sm text-gray-600 leading-relaxed border-b md:border-b-0 md:border-r border-gray-200 pb-6 md:pb-0 md:pr-6">
           <div>
             <p>
-              স্বত্বঃ © <span className="font-semibold text-gray-800">আমার দেশ</span> | সম্পাদক ও প্রকাশক, মাহমুদুর রহমান
+              স্বত্বঃ © <span className="font-semibold text-gray-800">Zero Ghonta</span> | সম্পাদক ও প্রকাশক, মাহমুদুর রহমান
             </p>
           </div>
           <p className="text-justify">
             মাহমুদুর রহমান কর্তৃক ঢাকা ট্রেড সেন্টার (৮ম ফ্লোর), ৯৯, কাজী নজরুল ইসলাম অ্যাভিনিউ, কারওয়ান
-            বাজার, ঢাকা-১২১৫ থেকে প্রকাশিত এবং আমার দেশ পাবলিকেশন লিমিটেড প্রেস, ৪৪/সি ও ৪৪/ডি, তেজগাঁও শিল্প এলাকা,
+            বাজার, ঢাকা-১২১৫ থেকে প্রকাশিত এবং Zero Ghonta পাবলিকেশন লিমিটেড প্রেস, ৪৪/সি ও ৪৪/ডি, তেজগাঁও শিল্প এলাকা,
             ঢাকা-১২০৮ থেকে মুক্তি।
           </p>
         </div>

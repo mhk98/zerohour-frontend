@@ -1,4 +1,4 @@
-# আমার দেশ - Bengali News Website
+# Zero Ghonta - Bengali News Website
 
 A fully responsive Bengali news website built with Next.js 14 App Router, Tailwind CSS, and modern web technologies.
 

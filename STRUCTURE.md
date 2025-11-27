@@ -1,7 +1,7 @@
 # Project Folder Structure
 
 ```
-amardesh-website/
+zeroghonta-website/
 ├── public/
 │   └── images/
 │       └── README.md              # Image placeholder instructions

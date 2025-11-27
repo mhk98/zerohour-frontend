@@ -7,7 +7,7 @@ import Script from "next/script";
 import Footer from "@/components/ui/footer";
 
 export const metadata = {
-  title: "আমার দেশ - আপনার বিশ্বস্ত সংবাদ মাধ্যম",
+  title: "Zero Ghonta - আপনার বিশ্বস্ত সংবাদ মাধ্যম",
   description:
     "বাংলাদেশের সর্বশেষ খবর, জাতীয়, আন্তর্জাতিক, খেলাধুলা, বিনোদন এবং আরও অনেক কিছু",
   keywords: "বাংলাদেশ, সংবাদ, খবর, জাতীয়, আন্তর্জাতিক",
